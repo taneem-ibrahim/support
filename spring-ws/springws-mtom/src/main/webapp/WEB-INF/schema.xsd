@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.springframework.org/spring-ws/samples/mtom"
+        xmlns:tns="http://www.springframework.org/spring-ws/samples/mtom"
+        xmlns:xmime="http://www.w3.org/2005/05/xmlmime" elementFormDefault="qualified">
+    <element name="StoreAttachmentRequest" type="tns:Attachment"/>
+	<element name="DownloadAttachmentRequest" type="string"/>
+    <element name="DownloadAttachmentResponse" type="tns:Attachment" />
+    <complexType name="Attachment">
+            <sequence>
+                <element name="name" type="string"/>
+                <element name="payLoad">
+                    <complexType>
+                        <sequence>
+                            <element name="attachmentPayLoad" type="base64Binary" xmime:expectedContentTypes="application/octet-stream"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+     </complexType>
+    
+</schema>
