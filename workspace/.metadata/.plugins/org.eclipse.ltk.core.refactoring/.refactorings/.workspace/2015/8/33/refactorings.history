@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;camel-blueprint&apos; to &apos;route-metrics-test&apos;" description="Rename resource &apos;camel-blueprint&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/camel-blueprint" name="route-metrics-test" stamp="1439231308369" updateReferences="true"/>
+</session>

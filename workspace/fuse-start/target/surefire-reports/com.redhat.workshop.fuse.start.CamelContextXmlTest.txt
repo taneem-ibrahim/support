@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.redhat.workshop.fuse.start.CamelContextXmlTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.602 sec

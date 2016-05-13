@@ -1,0 +1,7 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/CamelFile/src/main/resources/OSGI-INF/blueprint/blueprint.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/camel-basic/src/main/resources/OSGI-INF/blueprint/blueprint.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/dev-cbr/src/main/resources/META-INF/camelContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/dev-cbr/src/main/resources/META-INF/spring/bundle-context-osgi.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/dev-cbr/src/main/resources/META-INF/spring/bundle-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage id\="com.springsource.sts.config.ui.editors.namespaces" index\="1" kind\="formPage"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/quick-test/src/main/resources/META-INF/spring/camel-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+eclipse.preferences.version=1

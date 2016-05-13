@@ -1,0 +1,7 @@
+Connectors.ConnectionType=org.eclipse.tm.internal.terminal.ssh.SshConnector
+Connectors.org.eclipse.tm.internal.terminal.ssh.SshConnector.Host=0.0.0.0
+Connectors.org.eclipse.tm.internal.terminal.ssh.SshConnector.Keepalive=300
+Connectors.org.eclipse.tm.internal.terminal.ssh.SshConnector.Port=8101
+Connectors.org.eclipse.tm.internal.terminal.ssh.SshConnector.Timeout=45
+Connectors.org.eclipse.tm.internal.terminal.ssh.SshConnector.User=admin
+eclipse.preferences.version=1

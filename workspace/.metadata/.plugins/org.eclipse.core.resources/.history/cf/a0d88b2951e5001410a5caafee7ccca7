@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.taneem.file.splitter.routes;
+
+/**
+ * @author taneem
+ *
+ */
+import org.apache.camel.builder.RouteBuilder;
+
+public class FileRouteBuilder extends RouteBuilder{
+
+}
