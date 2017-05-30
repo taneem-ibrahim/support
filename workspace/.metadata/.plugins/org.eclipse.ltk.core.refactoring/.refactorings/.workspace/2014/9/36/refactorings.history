@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;camel-archetype-blueprint&apos;" deleteContents="true" description="Delete resource &apos;camel-archetype-blueprint&apos;" element1="/camel-archetype-blueprint" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1409869692295"/>
-</session>
