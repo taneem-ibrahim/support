@@ -1,0 +1,12 @@
+Note: spring-ws WSDL can be exposed in 2 ways:
+
+1. 	Simply add the WSDL to the root of the WAR, and the file is served normally. This has the disadvantage that 
+    the "location" attribute in the WSDL is static, i.e. it does not necessarily reflect the host name of the server. You can transform locations by using a WsdlDefinitionHandlerAdapter.
+    
+2.   Every WsdlDefinition listed in the *-servlet.xml will be exposed under the bean name. So if you define a 
+     WsdlDefinition bean name echo and location Uri as localhost:8080/echo  then WSDL would be server:port/context_root/locationURI_second_part/bean_name
+
+i.e.http://localhost:8080/<context_path>/echo/echo.wsdl).
+
+Also make sure you add the jboss context root in the *-ws.servlet.xml otherwise the WSDL will have the wrong endpoint soap:address.
+
