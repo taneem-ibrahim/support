@@ -6,7 +6,7 @@ IF TRUE
 DO traceln("*** byteman has Entered ***")
 ENDRULE
 
-RULE trace servlet entry
+RULE trace servlet exit
 CLASS org.jboss.example.counter.CounterServlet
 METHOD processRequest
 AT EXIT
