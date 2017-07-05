@@ -1,0 +1,7 @@
+RULE trace servlet constructor
+CLASS org.jboss.example.counter.CounterServlet
+METHOD init
+AT ENTRY
+IF TRUE
+DO traceln("*** Entered init ***")
+ENDRULE
